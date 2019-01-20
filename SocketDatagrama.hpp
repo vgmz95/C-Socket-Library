@@ -1,10 +1,9 @@
-#include <netinet/in.h>
-#include <sys/time.h>
-
-#include "PaqueteDatagrama.hpp"
-
 #ifndef SOCKETD_H
 #define SOCKETD_H
+
+#include <netinet/in.h>
+#include <sys/time.h>
+#include "PaqueteDatagrama.hpp"
 
 class SocketDatagrama {
 	private:
